@@ -50,7 +50,7 @@ class SocialMedia extends StatelessWidget {
           color: iconTint,
         ),
       ),
-      onPressed: () => _navigateToGithub(),
+      onPressed: () => onPressed(),
       icon: icon,
     );
   }
